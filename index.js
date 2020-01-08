@@ -11,10 +11,10 @@ app.get('/',(req,res) =>{
 })
 
 
-app.get('/spinach', (req,res)=>{
+app.get('/coffee', (req,res)=>{
     res.json({
-        name: "spinach",
-        bestFood: true
+        name: "Coffe Milione",
+        bestDrink: true
     })
 })
 
