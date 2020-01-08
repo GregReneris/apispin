@@ -1,0 +1,22 @@
+{
+  "name": "apispin",
+  "version": "1.0.0",
+  "description": "ReadMe!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregReneris/apispin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregReneris/apispin/issues"
+  },
+  "homepage": "https://github.com/GregReneris/apispin#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
