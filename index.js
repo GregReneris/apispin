@@ -7,7 +7,7 @@ var app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/',(req,res) =>{
-    res.send("welcome to my API this morning");
+    res.send("/index.html" );
 })
 
 
@@ -22,3 +22,4 @@ app.get('/coffee', (req,res)=>{
 app.listen(PORT,function(){
     console.log("spun up server" + PORT);
 })
+
